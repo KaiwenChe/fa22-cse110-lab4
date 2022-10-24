@@ -1,0 +1,11 @@
+   1. 3 will be printed. Because i is declared by var that has a function scope of visibility and accessibility. At the end of the for loop, i is updated to the length of the prices array, which is 3.
+   2. 150 will be printed. Because discountedPrices is declared by var that has a function scope of visibility and accessibility. At the end of the for loop, discountedPrices is calculated as 150.
+   3. 150 will be printed. Because finalPrices is declared by var that has a function scope of visibility and accessibility. At the end of the for loop, finalPrices is calculated as 150.
+   4. The function will return the discounted price array that was calculated by the function.
+   5. The code causes an error. Because i is in the for loop and declared by let that has a block scope, it is only visible to the block of code inside the for loop. Trying to access it outside the loop will cause an error for accessing undefined variable.
+   6. The code causes an error. Because discountedPrices is in the for loop and declared by let that has a block scope, it is only visible to the block of code inside the for loop. Trying to access it outside the loop will cause an error for accessing undefined variable.
+   7. 150 will be printed. Because finalPrices is on the top of the function and declared by let that has a block scope, it is visible to the codes throughout the function.
+   8. The function will return the discounted price array that was calculated by the function.
+   9. The code causes an error. Because i is in the for loop and declared by let that has a block scope, it is only visible to the block of code inside the for loop. Trying to access it outside the loop will cause an error for accessing undefined variable.
+   10. 3 will be printed. Because length is declared by const that has a block scope of visibility and accessibility. At line 4, length is assigned to the length of the prices array, which is 3.
+   11. The function will return the discounted price array that was calculated by the function.
